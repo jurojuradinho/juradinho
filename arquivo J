@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juro Juradinho</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: linear-gradient(135deg, #8B0000, #000000);
+      font-family: 'Bebas Neue', Impact, sans-serif;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      overflow: hidden;
+
+      /* Ícones no fundo */
+      background-image: url('faca.svg'), url('machado.svg'), url('pessoa-celular.svg');
+      background-repeat: no-repeat;
+      background-size: 80px, 100px, 120px;
+      background-position: top left, bottom right, center;
+    }
+
+    header {
+      font-size: 4rem;
+      font-weight: bold;
+      color: #ffffff;
+      text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+      margin-bottom: 0.5rem;
+    }
+
+    h1 {
+      font-size: 5rem;
+      color: #ff3b3b;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 4px #000;
+      margin: 0;
+    }
+
+    .slogan {
+      font-size: 1rem;
+      color: #eeeeee;
+      margin-top: 1rem;
+      font-family: 'Roboto', sans-serif;
+      max-width: 80%;
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.8rem;
+      color: #ccc;
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      line-height: 1.4;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        font-size: 3rem;
+      }
+
+      h1 {
+        font-size: 3.5rem;
+      }
+
+      .slogan {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>A.K</header>
+  <main>
+    <h1>Juro Juradinho</h1>
+    <p class="slogan">Promessas são sagradas. Quebrar um juramento tem consequências.</p>
+  </main>
+  <footer class="footer">
+    📞 4002-8922<br />
+    📧 promecadededinho.jurojuradinho@gmail.com
+  </footer>
+</body>
+</html>
